@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.produse {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.card {
+  width: 250px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cos {
+  margin: 20px;
+}
+
+#lista-produse {
+  list-style: none;
+  padding: 0;
+}
+
+#lista-produse li {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazin de mobilă</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Magazin de mobilă</h1>
+    </header>
+
+    <main>
+        <section class="produse">
+            <h2>Produse</h2>
+            <div class="card">
+                <img src="imagine1.jpg" alt="Pat dublu">
+                <h3>Pat dublu</h3>
+                <p>Descriere produs 1</p>
+                <button data-produs-id="1">Adaugă în coș</button>
+            </div>
+
+            <div class="card">
+                <img src="imagine2.jpg" alt="Canapea">
+                <h3>Canapea</h3>
+                <p>Descriere produs 2</p>
+                <button data-produs-id="2">Adaugă în coș</button>
+            </div>
+
+            <div class="card">
+                <img src="imagine3.jpg" alt="Masă de cafea">
+                <h3>Masă de cafea</h3>
+                <p>Descriere produs 3</p>
+                <button data-produs-id="3">Adaugă în coș</button>
+            </div>
+        </section>
+
+        <section class="cos">
+            <h2>Coș</h2>
+            <ul id="lista-produse"></ul>
+            <p id="total">Total: 0 lei</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
